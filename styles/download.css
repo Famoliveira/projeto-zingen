@@ -3,6 +3,8 @@
   & .card {
     position: relative;
     padding: 3rem 1.5rem 15rem;
+    margin-block: var(--py-xl);
+
     
     & > img {
       width: 14.5rem;
@@ -15,6 +17,7 @@
   .buttons {
     flex-wrap: wrap;
     margin-top: 2rem;
+
   }
 
   @media (width >= 80em) {
