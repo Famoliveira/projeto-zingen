@@ -82,6 +82,17 @@ a {
   color: inherit;
 }
 
+a:hover {
+  background: linear-gradient(
+    90deg,
+    var(--brand-color-primary) 0%,
+    var(--brand-color-secondary) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+} 
+
 ul[role='list'] {
   list-style: none;
 }
