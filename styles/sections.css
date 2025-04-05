@@ -21,7 +21,6 @@ section {
 
   & p {
     color: var(--text-color-secondary);
-    text-align: justify;
     letter-spacing: 0.02em;
     margin-top: 0.5rem;
   }
