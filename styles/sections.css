@@ -1,0 +1,34 @@
+#smartphones-img {
+
+  margin-top: 5rem;
+  background: url(../assets/images/bg-hero-mobile.svg) top/cover;
+}
+
+section {
+  & header {
+    & strong {
+      display: block;
+      font: var(--fw-md) var(--fs-md)/100% var(--ff-sans);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand-color-primary);
+    }
+
+    & h2 {
+      margin-top: 0.5rem;
+    }
+  }
+
+  & p {
+    color: var(--text-color-secondary);
+    text-align: justify;
+    letter-spacing: 0.02em;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (width >= 80em) {
+  #smartphones-img {
+    display: none;
+  }
+}
